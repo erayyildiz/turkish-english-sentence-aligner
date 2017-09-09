@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cat $* | \
+/home/eray/Masaüstü/champollion-1.2/bin/axis.CN/gb/gb2mixed | \
+/home/eray/Masaüstü/champollion-1.2/bin/axis.CN/gb/gb-num2arabic | \
+/home/eray/Masaüstü/champollion-1.2/thirdparty/ldc-cn-seg/mansegment.perl | \
+/home/eray/Masaüstü/champollion-1.2/bin/axis.CN/gb/cn-tk-number-ascii

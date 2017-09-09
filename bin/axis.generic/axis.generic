@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cat $* | \
+/home/eray/Masaüstü/champollion-1.2/bin/axis.generic/gtoken.pl | \
+/home/eray/Masaüstü/champollion-1.2/bin/eos_tokenize.pl

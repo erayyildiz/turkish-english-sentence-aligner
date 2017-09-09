@@ -1,0 +1,5 @@
+cat $* | \
+/home/eray/Masaüstü/champollion-1.2/bin/axis.HN/Htokenize | \
+/home/eray/Masaüstü/champollion-1.2/bin/axis.HN/light_hindi_stemmer.pl | \
+/home/eray/Masaüstü/champollion-1.2/bin/axis.EN/lowercase | \
+/home/eray/Masaüstü/champollion-1.2/bin/axis.HN/romanize_hin_num.pl

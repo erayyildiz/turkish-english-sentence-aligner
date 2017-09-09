@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cat $* | \
+$CTK/bin/axis.TR/etoken.pl | \
+$CTK/bin/axis.TR/lowercase
